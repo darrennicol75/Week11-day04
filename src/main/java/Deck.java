@@ -34,7 +34,7 @@ public class Deck {
     }
 
 
-
-
-
+    public Card removeCardFromDeck() {
+        return this.deck.remove(0);
+    }
 }

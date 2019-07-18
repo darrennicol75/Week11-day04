@@ -45,5 +45,12 @@ public class DeckTest {
     }
 
 
+    @Test
+    public void canRemoveCardFromDeck(){
+        deck.addCardsToDeck();
+        deck.shuffle();
+        deck.removeCardFromDeck();
+        assertEquals(51, deck.getDeckSize());
+    }
 
 }
